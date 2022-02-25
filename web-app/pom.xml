@@ -5,7 +5,7 @@
     <parent>
         <artifactId>mb2g-mm-maven</artifactId>
         <groupId>usr.nishant</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,17 +15,22 @@
         <dependency>
             <groupId>usr.nishant</groupId>
             <artifactId>jpa-entities</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>usr.nishant</groupId>
             <artifactId>web-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>usr.nishant</groupId>
+            <artifactId>from-intellij</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>usr.nishant</groupId>
             <artifactId>converters</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
